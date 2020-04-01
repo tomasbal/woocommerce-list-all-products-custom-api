@@ -7,7 +7,7 @@
  * Author: Tomislav Balabanov
  * Author URI: https://tomislavbalabanov.me
  */
-// Acess URL Exmaple: http://stage.nomadmobility.mk/wp-json/devlent/products
+// Acess URL Exmaple: http://your-url.com/wp-json/devlent/products
 add_action( 'rest_api_init', 'my_register_route');
 
 function my_register_route() {
